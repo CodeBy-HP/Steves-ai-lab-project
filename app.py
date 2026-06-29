@@ -4,7 +4,7 @@ import streamlit as st
 from dotenv import load_dotenv
 from google import genai
 
-from utils import search_chroma
+from ehr_ingest import search_chroma
 
 
 load_dotenv()

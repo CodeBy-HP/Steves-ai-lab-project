@@ -1,6 +1,4 @@
-from ehr_ingest import generate_chunks
-from utils import embed_chunks, save_to_chroma
-
+from ehr_ingest import generate_chunks,embed_chunks, save_to_chroma
 
 # Generate chunks
 chunks = generate_chunks()
